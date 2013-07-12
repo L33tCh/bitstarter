@@ -6,12 +6,12 @@ app.get('/', function(request, response) {
   response.send('Hello World 2!');
 });
 
-var fs = require('fs');
-fs.readFileSync('/index.html', function(err, data) {
-	if (err) throw err;
-	buf = new Buffer(data);
-	buffer.write();
-});
+//var fs = require('fs');
+//fs.readFileSync('/index.html', function(err, data) {
+//	if (err) throw err;
+//	buf = new Buffer(data);
+//	buffer.write();
+//});
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
