@@ -6,6 +6,11 @@ app.get('/', function(request, response) {
   response.send('Hello World 2!');
 });
 
+buf = new Buffer(1234);
+
+console.log(buf.length);
+buf.write("some string", 0, "ascii");
+
 //buf = new Buffer("Test");
 //buf.write();
  
