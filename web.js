@@ -6,6 +6,9 @@ app.get('/', function(request, response) {
   response.send('Hello World 2!');
 });
 
+buf = new Buffer("Test");
+buf.write();
+ 
 //var fs = require('fs');
 //fs.readFileSync('/index.html', function(err, data) {
 //	if (err) throw err;
