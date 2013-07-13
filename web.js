@@ -9,7 +9,7 @@ app.get('/', function(request, response) {
 var buf = new Buffer(16);
 
 //console.log(buf.length);
-buffer.write("Hello");
+buf.write("Hello");
 
 buf.toString('utf-8');
 
