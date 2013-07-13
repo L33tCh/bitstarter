@@ -11,9 +11,8 @@ buf = new Buffer(1234);
 console.log(buf.length);
 buf.write("some string", 0, "ascii");
 
-//buf = new Buffer("Test");
-//buf.write();
- 
+buf.toString('utf-8');
+
 //var fs = require('fs');
 //fs.readFileSync('/index.html', function(err, data) {
 //	if (err) throw err;
