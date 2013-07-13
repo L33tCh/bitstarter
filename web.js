@@ -7,7 +7,7 @@ app.get('/', function(request, response) {
 });
 
 buf = new Buffer("Test");
-buf.write();
+//buf.write();
  
 //var fs = require('fs');
 //fs.readFileSync('/index.html', function(err, data) {
