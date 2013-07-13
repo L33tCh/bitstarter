@@ -6,9 +6,9 @@ app.get('/', function(request, response) {
   response.send('Hello World 2!');
 });
 
-var buf = new Buffer(1234);
+var buf = new Buffer(16);
 
-console.log(buf.length);
+//console.log(buf.length);
 buffer.write("Hello", "utf-8");
 
 buf.toString('utf-8');
