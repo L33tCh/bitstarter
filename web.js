@@ -2,8 +2,8 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-var buf = new Buffer();
-buf.write("Hello", "utf-8");
+var buf = new Buffer("hello");
+//buf.write("Hello", "utf-8");
 var t = buf.toString("utf-8");
 
 app.get('/', function(request, response) {
