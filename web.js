@@ -9,9 +9,9 @@ app.get('/', function(request, response) {
 var buf = new Buffer(16);
 
 //console.log(buf.length);
-buf.write("Hello");
+buf.write("Hello", "utf-8");
 
-buf.toString('utf-8');
+buf.toString('utf-8')
 
 //var fs = require('fs');
 //fs.readFileSync('/index.html', function(err, data) {
